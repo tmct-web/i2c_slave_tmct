@@ -3,11 +3,11 @@ I<sup>2</sup>C slave (I<sup>2</sup>C to bus) module
 [日本語はこちら](#anchor0_ja)
 
 i2c_slave_tmct is a basic I<sup>2</sup>C slave IP core that provides the basic framework for the implementation of custom I<sup>2</sup>C slave devices.  
-The core provides a means to read and write up to 256 8-byte registers. These registers can be connected to the users custom logic, thus implementing a simple control and status interface.  
+The core provides a means to read and write up to 256 8-bit registers. These registers can be connected to the users custom logic, thus implementing a simple control and status interface.  
 Please note that this module is distributed under the 3-article BSD license. You are free to use it as long as you do not violate the terms of use.
 
 i2c_slave_tmct は、基本的なカスタムI<sup>2</sup>Cスレーブデバイスを実装するためのフレームワークIPコアです。  
-8バイトのレジスタを最大256個まで読み書きする手段を提供します。これらのレジスタはユーザーのカスタムロジックに接続することができ、シンプルな制御およびステータスインタフェースを実装することができます。  
+8ビットのレジスタを最大256個まで読み書きする手段を提供します。これらのレジスタはユーザーのカスタムロジックに接続することができ、シンプルな制御およびステータスインタフェースを実装することができます。  
 本モジュールは3条項BSDライセンスのもとに配布されます。利用条項に違反しない限り自由にご利用ください。  
 ※日本語の解説文は[英語の解説文の下](#anchor0_ja)にあります。
 
